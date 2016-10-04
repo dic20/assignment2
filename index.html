@@ -1,0 +1,54 @@
+<!DOCTYPE html5>
+<html>
+	<head>
+		<title>Form</title>
+	
+		<meta name="author" content="Daniel Critchfield">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="./css/form.css">
+  </head>
+  <body>
+  	<div id="buffer">
+  		<h1>This is the header for my form</h1>
+  	</div>
+  	<div id="contentContainer">
+			<form name="contactForm" method="post">
+				<div class="form-content">
+					<label for="fname">First Name:</label>
+					<input type="text" id="fname" name="FirstName" value="">
+				</div>
+				<div class="form-content">
+					<label>Last Name:</label>
+					<input type="text" id="lname" name="LastName" value="">
+				</div>
+				<div class="form-content">
+					<label for="Email">Email:</label>
+					<input type="email" id="Email" name="Email">
+				</div>
+				<div class="form-content">
+					<label for="Comment">Extra Information:</label>
+					<textarea type="text-area" id="Comment" name="Comment" value=""></textarea>
+				</div>
+				<p>
+					<button class="submit-format" name="validate" onclick="validateForm()">Submit</button>
+				</p>
+			</form>
+		</div>
+		<div id="donePage">
+			You now have a virus!
+		</div>
+		<div id="gotcha">
+			AHHHH just kidding! I don't know how to write a virus, plus I don't want to fail this class...
+		</div>
+		
+		<div id="happy">
+			So here is a link to a smiley face:
+			<a href="http://images.clipartpanda.com/happy-face-clipart-excited-smiley-face-clip-art-i11.jpg">link</a>
+			I promise the link doesn't lead to a virus.....seriously it doesn't....unless the smiley face image has a virus, but that is not my fault.
+		</div>
+		<noscript>You Must Turn On JavaScript For The Full Website!</noscript>
+		
+		<script src="./js/form.js"></script>
+  </body>
+</html>
